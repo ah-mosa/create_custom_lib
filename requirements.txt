@@ -1,0 +1,19 @@
+Flask==2.3.3
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+colorama==0.4.6
+tqdm==4.65.0
+python-dotenv==1.0.0
+APScheduler==3.10.4
+Jinja2==3.1.2
+Werkzeug==2.3.7
+urllib3==1.26.18
+cssutils==2.7.1
+pyyaml==6.0
+click==8.1.7
+
+# للتطوير
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0

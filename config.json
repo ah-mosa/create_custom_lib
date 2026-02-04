@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "JS Custom Bundler",
+    "version": "2.0.0",
+    "description": "نظام إدارة مكتبات JavaScript من واجهة ويب متكاملة"
+  },
+  "security": {
+    "max_file_size": 104857600,
+    "allowed_extensions": [".js", ".ts", ".jsx", ".tsx", ".json", ".html", ".css"],
+    "excluded_dirs": ["node_modules", ".git", "dist", "build", ".cache", ".vscode"],
+    "web_host": "127.0.0.1",
+    "web_port": 8080,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "upload_limit": "100MB"
+    }
+  },
+  "storage": {
+    "max_projects": 50,
+    "max_storage_mb": 500,
+    "cleanup_days": 7,
+    "backup_enabled": true,
+    "backup_path": "./backups"
+  },
+  "analysis": {
+    "max_files_per_scan": 1000,
+    "supported_libraries": ["lodash", "jquery", "axios", "moment", "react", "vue", "angular"],
+    "deep_analysis": true,
+    "cache_results": true
+  },
+  "ui": {
+    "default_language": "ar",
+    "default_theme": "light",
+    "enable_animations": true,
+    "enable_notifications": true,
+    "auto_refresh_interval": 30
+  }
+}
